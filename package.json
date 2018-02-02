@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/tranthebao/express/issues"
   },
-  "homepage": "https://github.com/tranthebao/express#readme"
+  "homepage": "https://github.com/tranthebao/express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bytes": "^3.0.0",
+    "jade": "^1.11.0",
+    "pug": "^2.0.0-rc.4"
+  }
 }
