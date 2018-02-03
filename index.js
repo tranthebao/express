@@ -15,7 +15,11 @@ app.get('/', function(req, res){
 app.get('/dynamic_view', function(req, res){
     res.render('dynamic', {
        name: "TutorialsPoint", 
-       url:"http://www.tutorialspoint.com"
+       url:"https://www.tutorialspoint.com/expressjs/expressjs_templating.htm"
     });
  });
+ //Include and Components
+app.get('/components', function(req, res){
+    res.render('content');
+});
 app.listen(8000);
